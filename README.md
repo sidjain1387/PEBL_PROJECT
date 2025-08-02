@@ -28,37 +28,8 @@ PEBL helps users easily create, track, and manage orders or bookings. Whether yo
   - Payment verification via QR or similar  
   - Invoice generation logic with dynamic tax/SAC handling  
 
-## 4. Application Flow
 
-1. **User/Owner Signup & Login**  
-   - Owners register and manage multiple branches.  
-   - Customers or internal users log in to place or track orders.
-
-2. **Entity Setup**  
-   - Owners add branches, menus/items, and configure availability.  
-   - Admin or biller profiles created as needed.
-
-3. **Order / Preorder Creation**  
-   - Customers select items, customize, and add to cart.  
-   - Preorder is created and payment is initiated.
-
-4. **Payment Verification**  
-   - Payment is done; verification occurs via QR scan or integrated flow.  
-   - Once payment is confirmed, the corresponding order status updates.
-
-5. **Invoice / Bill Generation**  
-   - Invoice is built by selecting services (e.g., items, charges).  
-   - SAC code-based tax calculation applies appropriate taxes.  
-   - Final bill can be marked paid, triggering downstream updates (e.g., ticket/payment status).
-
-6. **Real-time Status & Data Handling**  
-   - Paid status cascades (e.g., marking related tickets/services as paid).  
-   - Sorting/filtering allows quick access to relevant orders, bills, or entities.
-
-7. **Administration & Reporting**  
-   - Owners or admins view dashboards, search/filter historic bills, and manage service configurations.
-
-## 5. Installation
+## 4. Installation
 
 ```bash
 # Clone the repo
