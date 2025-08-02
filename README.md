@@ -4,7 +4,7 @@
 <!-- Example: badges: [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) -->
 
 ## 1. Project Name
-**PEBL Project**
+**Food Order**
 
 ## 2. Description (What all things your application does in short)
 
