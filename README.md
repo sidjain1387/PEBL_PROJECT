@@ -68,9 +68,8 @@ cd PEBL_PROJECT
 # Backend setup
 cd server
 npm install
-# Create .env with required variables (e.g., DB connection, JWT secret)
-npm run migrate  # if you have migrations
-npm start        # or `npm run dev` for hot reload
+npm run migrate 
+npm start  
 
 # Frontend setup
 cd ../client
